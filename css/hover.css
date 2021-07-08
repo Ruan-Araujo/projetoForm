@@ -1,0 +1,25 @@
+h1:hover{
+  color: white;
+  transition: color 0.7s ease-in-out;
+  text-transform: uppercase;
+}
+
+input[type='text']:hover,
+input[type='email']:hover,
+input[type='password']:hover{
+  background-color: purple;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  transition: 0.40s;
+}
+
+button.button:hover{
+  background-color: white;
+  color: purple;
+  font-weight: bold;
+}
+
+::placeholder{
+  color: white;
+}

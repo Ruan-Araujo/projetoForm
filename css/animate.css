@@ -1,0 +1,18 @@
+.slide-form{
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein{
+  from{
+    margin-top: -100%;
+  }
+  to{
+    
+  }
+}
+
+.button:hover{
+  transform: scale(1.1);
+  transition: 500ms cubic-bezier(0.42, 0, 0.47, 2);
+}
